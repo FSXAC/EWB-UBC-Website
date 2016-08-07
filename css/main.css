@@ -10,6 +10,51 @@ p {
   font-size: 1.2em;
 }
 
+a {
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
 .searchbar {
-  width: 200px;
+  width: 150px;
+}
+
+.carousel {
+  margin-top: 5px;
+}
+
+.item {
+  background-size: cover;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .item {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item {
+    height: 200px;
+  }
+}
+
+#carousel1 {
+  background: url("../img/carousel_1.jpg") center center no-repeat;
+}
+
+#carousel2 {
+  background: url("../img/carousel_2.jpg") center center no-repeat;
+}
+
+#carousel3 {
+  background: url("../img/carousel_3.jpg") center center no-repeat;
+}
+
+#carousel4 {
+  background: url("../img/carousel_4.jpg") center center no-repeat;
 }

@@ -1,14 +1,14 @@
 var main = function() {
   $(".searchbar").focusin(function() {
     $(this).animate({
-      width: '+=100px'
-    });
+      width: '+=90px'
+    }, 200);
   });
 
   $(".searchbar").focusout(function() {
     $(this).animate({
-      width: '-=100px'
-    });
+      width: '-=90px'
+    }, 200);
   });
 }
 

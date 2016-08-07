@@ -15,13 +15,13 @@
 <body>
   <header class = "container">
     <div class = "page-header">
-      <div class="input-group pull-right searchbar" style = "width: 200px;">
+      <div class="input-group pull-right searchbar">
         <input type="text" class="form-control" placeholder="Search">
         <span class="input-group-btn">
           <button class="btn btn-default" type="button">Go!</button>
         </span>
       </div>
-      <h1>Engineers Without Borders (UBC)</h1>
+      <h1><a href="#">Engineers Without Borders (UBC)</a></h1>
       <p class = "text-muted">
         Inspires to Question, Empowers to Transform
       </p>
@@ -57,8 +57,53 @@
       <li role="presentation"><a href="#">Calendar</a></li>
       <li role="presentation"><a href="#">Contact</a></li>
     </ul>
-
   </header>
+
+  <!-- Carousel -->
+  <div class = "container">
+    <div class="carousel slide" id="mainCarousel">
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#mainCarousel"></li>
+        <li data-slide-to="1" data-target="#mainCarousel"></li>
+        <li data-slide-to="2" data-target="#mainCarousel"></li>
+        <li data-slide-to="3" data-target="#mainCarousel"></li>
+      </ol>
+
+      <!-- slide wrappers -->
+      <div class="carousel-inner">
+        <div class="item active" id="carousel1">
+          <div class="carousel-caption">
+            <h3>EWB STUFF</h3>
+            <p>Hello text edit</p>
+          </div>
+        </div>
+        <div class="item" id="carousel2">
+          <div class="carousel-caption">
+            <h3>EWB STUFF</h3>
+            <p>Hello text edit</p>
+          </div>
+        </div>
+        <div class="item" id="carousel3">
+          <div class="carousel-caption">
+            <h3>EWB STUFF</h3>
+            <p>Hello text edit</p>
+          </div>
+        </div>
+        <div class="item" id="carousel4">
+          <div class="carousel-caption">
+            <h3>EWB STUFF</h3>
+            <p>Hello text edit</p>
+          </div>
+        </div>
+      </div>
+      <!-- carousel control -->
+      <a class = "left carousel-control" data-slide="prev" href="#mainCarousel"><span class="icon-prev"></span></a>
+      <a class = "right carousel-control" data-slide="next" href="#mainCarousel"><span class="icon-next"></span></a>
+    </div>
+
+
+  </div>
 </body>
 
 </html>
