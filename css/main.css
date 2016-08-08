@@ -60,11 +60,17 @@ a:focus {
 #carousel1 {
   background: url("../img/carousel_1.jpg") center center no-repeat fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #carousel2 {
   background: url("../img/carousel_2.jpg") center center no-repeat fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .thumbnail-300 {
