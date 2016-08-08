@@ -17,7 +17,7 @@ h1 {
   font-weight: 100px;
 }
 
-p {
+p em b i strong u span{
   font-size: 1.2em;
 }
 
@@ -25,7 +25,11 @@ a {
   color: inherit;
 }
 
-a:hover{
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
   text-decoration: none;
 }
 
@@ -38,7 +42,6 @@ a:hover{
 }
 
 .item {
-  background-size: cover;
   height: 400px;
 }
 
@@ -55,9 +58,16 @@ a:hover{
 }
 
 #carousel1 {
-  background: url("../img/carousel_1.jpg") center center no-repeat;
+  background: url("../img/carousel_1.jpg") center center no-repeat fixed;
+  background-size: cover;
 }
 
 #carousel2 {
-  background: url("../img/carousel_2.jpg") center center no-repeat;
+  background: url("../img/carousel_2.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
+.thumbnail-300 {
+  width: 300;
+  margin: auto;
 }
